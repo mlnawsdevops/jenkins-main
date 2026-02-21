@@ -1,4 +1,4 @@
-# Jenkins
+# Jenkins basics
 pipeline {
     agent {
         label 'AGENT-1' // jenkins-agent
