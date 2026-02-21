@@ -1,0 +1,8 @@
+deployment:
+  imageURL: 529088275803.dkr.ecr.us-east-1.amazonaws.com/expense/frontend
+  imageVersion: IMAGE_VERSION
+  replicas: 2
+hpa:
+  cpuUtilization: 15
+tgb:
+  arn: arn:aws:elasticloadbalancing:us-east-1:529088275803:targetgroup/expense-dev-ingress-alb/f79cef74f39aad50
